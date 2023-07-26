@@ -1,11 +1,16 @@
+:root {
+    --base-rem: 16px;
+    --max-width-rem: 100wv;
+}
+  
+html {
+    font-size: calc(100vw / 1920);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-size: 16px;  
 }
 
 .home {
@@ -32,14 +37,14 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    font-size: 60px;
+    font-size: 60rem;
 }
 
 h1 a {
     color: #fff;
     background: #000;
     width: 100%;
-    padding: 10px;
+    padding: 10rem;
     text-decoration: none;
 }
 
